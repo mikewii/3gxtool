@@ -1,6 +1,6 @@
 #include "types.hpp"
 #include "3gx.hpp"
-#include "yaml.h"
+#include <yaml-cpp/yaml.h>
 #include "cxxopts.hpp"
 #include <iostream>
 #include <fstream>

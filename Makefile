@@ -43,7 +43,7 @@ export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L $(dir)/lib)
 all: $(BUILD)
 
 install:
-	@mv $(OUTPUT).exe C:\devkitPro\tools\bin\3gxtool.exe
+	@mv $(OUTPUT).exe $(DEVKITPRO)\tools\bin\3gxtool.exe
 
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@

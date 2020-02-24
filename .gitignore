@@ -1,0 +1,10 @@
+*
+*/
+
+!.gitignore
+!Makefile
+!READMA.md
+!includes
+!includes/**
+!sources
+!sources/**
